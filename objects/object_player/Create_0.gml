@@ -7,10 +7,10 @@
 /// @DnDArgument : "expr_2" "4"
 /// @DnDArgument : "expr_3" "0.8"
 /// @DnDArgument : "var" "run_speed"
-/// @DnDArgument : "var_1" "Jump_speed"
+/// @DnDArgument : "var_1" "jump_speed"
 /// @DnDArgument : "var_2" "climb_speed"
 /// @DnDArgument : "var_3" "gravity_amount"
 run_speed = 6;
-Jump_speed = -10;
+jump_speed = -10;
 climb_speed = 4;
 gravity_amount = 0.8;

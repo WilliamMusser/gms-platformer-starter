@@ -21,4 +21,21 @@ if ((l6264135B_0 > 0))
 	/// @DnDParent : 6264135B
 	/// @DnDArgument : "force" "0"
 	gravity = 0;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E696A73
+	/// @DnDParent : 6264135B
+	/// @DnDArgument : "code" "if (vspeed > 0) {$(13_10)	$(13_10)//moving up$(13_10)//change sprite to jump$(13_10)}$(13_10)else if  (vspeed < 0) {$(13_10)	$(13_10)}$(13_10)else {$(13_10)	$(13_10)}"
+	if (vspeed > 0) {
+		
+	//moving up
+	//change sprite to jump
+	}
+	else if  (vspeed < 0) {
+		
+	}
+	else {
+		
+	}
 }
