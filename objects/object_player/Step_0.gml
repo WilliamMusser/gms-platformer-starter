@@ -21,21 +21,32 @@ if ((l6264135B_0 > 0))
 	/// @DnDParent : 6264135B
 	/// @DnDArgument : "force" "0"
 	gravity = 0;
+}
 
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 08AEBB2E
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "object_ladder"
+/// @DnDSaveInfo : "object" "2c559c8e-76cd-4ef7-8529-5737013a2f76"
+var l08AEBB2E_0 = instance_place(x + 0, y + 0, object_ladder);
+if ((l08AEBB2E_0 > 0))
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
 	/// @DnDVersion : 1
-	/// @DnDHash : 4E696A73
-	/// @DnDParent : 6264135B
-	/// @DnDArgument : "code" "if (vspeed > 0) {$(13_10)	$(13_10)//moving up$(13_10)//change sprite to jump$(13_10)}$(13_10)else if  (vspeed < 0) {$(13_10)	$(13_10)}$(13_10)else {$(13_10)	$(13_10)}"
-	if (vspeed > 0) {
-		
-	//moving up
-	//change sprite to jump
-	}
-	else if  (vspeed < 0) {
-		
-	}
-	else {
-		
-	}
+	/// @DnDHash : 28676AFA
+	/// @DnDParent : 08AEBB2E
+	/// @DnDArgument : "force" "0"
+	gravity = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7A1B6209
+	/// @DnDParent : 08AEBB2E
+	/// @DnDArgument : "imageind" "2"
+	/// @DnDArgument : "spriteind" "sprite_player_climb"
+	/// @DnDSaveInfo : "spriteind" "4f835733-33ba-4460-8422-a0952ca389de"
+	sprite_index = sprite_player_climb;
+	image_index = 2;
 }
