@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "aa63d4f0-0e33-4cae-9f0e-5b2454628946",
+            "Value": {
+                "id": "d2318dab-c9d2-4a55-b10e-6964577d30ad",
+                "resourcePath": "objects\\object_snake\\object_snake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "acde4f84-fb90-4cf6-8c5e-e139f3893c5f",
             "Value": {
                 "id": "21b66453-a5e9-4f61-9891-da93d4b49efe",
