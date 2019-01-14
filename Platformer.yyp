@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "3e43c6bb-d9eb-439f-8e80-593289c0d148",
+            "Value": {
+                "id": "2e2a6c99-b3a6-468a-9f32-fbdeb1b58763",
+                "resourcePath": "objects\\object_HUD\\object_HUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "483d1e42-f797-4a19-85cd-80183bfd817a",
             "Value": {
                 "id": "1096a2ce-0fa3-47ee-abdb-5a7378c75d8b",
