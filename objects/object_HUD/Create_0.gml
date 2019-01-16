@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
-/// @DnDHash : 0FCB2888
-/// @DnDArgument : "code" "x = view_xport[view_current] + 100;$(13_10)y = view_yport[view_current] + 50;"
-x = view_xport[view_current] + 100;
-y = view_yport[view_current] + 50;
+/// @DnDHash : 1CCF50AE
+/// @DnDArgument : "font" "font_HUD"
+/// @DnDSaveInfo : "font" "08290faf-17a3-4778-ac6c-cb85855c1cbd"
+draw_set_font(font_HUD);
