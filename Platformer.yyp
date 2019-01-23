@@ -106,7 +106,7 @@
             "Key": "3e43c6bb-d9eb-439f-8e80-593289c0d148",
             "Value": {
                 "id": "2e2a6c99-b3a6-468a-9f32-fbdeb1b58763",
-                "resourcePath": "objects\\object_HUD\\object_HUD.yy",
+                "resourcePath": "objects\\game_manager\\game_manager.yy",
                 "resourceType": "GMObject"
             }
         },

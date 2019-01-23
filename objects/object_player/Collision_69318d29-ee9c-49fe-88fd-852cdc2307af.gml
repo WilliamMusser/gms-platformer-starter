@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 48DBBDCE
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "game_manager.player1_lives"
+game_manager.player1_lives += -1;
+
 /// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 240EBEE8
