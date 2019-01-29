@@ -42,7 +42,7 @@
             "Key": "08290faf-17a3-4778-ac6c-cb85855c1cbd",
             "Value": {
                 "id": "a458eeda-2025-45f9-a908-a253440fa395",
-                "resourcePath": "fonts\\font_HUD\\font_HUD.yy",
+                "resourcePath": "fonts\\font_score\\font_score.yy",
                 "resourceType": "GMFont"
             }
         },

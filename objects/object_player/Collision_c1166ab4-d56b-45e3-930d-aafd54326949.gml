@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3D0EBD1C
-/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "expr" "80"
 /// @DnDArgument : "var" "game_manager.player1_health"
-game_manager.player1_health = 100;
+game_manager.player1_health = 80;
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
